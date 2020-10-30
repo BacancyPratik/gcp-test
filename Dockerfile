@@ -1,5 +1,4 @@
-FROM centos:latest
-MAINTAINER pratik.panchal@cicd.it
+FROM centos
 RUN yum install -y httpd \
   zip \
   unzip
